@@ -1,9 +1,8 @@
-СПП лабораторная №2
+MPP Lab num.2
 ===
-#HEADING
 
 ---
-В рамках данной лабораторной работы необходимо реализовать многопоточный генератор DTO-классов. Перечень и структура классов задаются в JSON файле. Данный документ имеет следующую структуру:
+In this lab must realize multithread DTO-Class generator. The structure and the list of classes are set in JSON file. JSON it has the following structure:
 ```
 {
     "classDescriptions": [
@@ -35,7 +34,7 @@
 }
 
 ```
-Результирующий DTO-класс представлен следующим образом:
+Result DTO-Class is a follows:
 ```
 public sealed class SomethingWicked {
         public int FirstProperty { get; set; }
